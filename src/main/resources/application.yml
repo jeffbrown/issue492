@@ -1,3 +1,4 @@
+---
 micronaut:
     application:
         name: issue492
@@ -5,3 +6,11 @@ micronaut:
 #Uncomment to set server port
 #    server:
 #        port: 8080
+
+---
+consul:
+  client:
+    registration:
+      fail-fast: false
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
