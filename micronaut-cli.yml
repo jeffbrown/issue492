@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: issue492
+---
+testFramework: spock
+sourceLanguage: groovy

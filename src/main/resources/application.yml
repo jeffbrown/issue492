@@ -1,0 +1,7 @@
+micronaut:
+    application:
+        name: issue492
+                
+#Uncomment to set server port
+#    server:
+#        port: 8080
